@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    margin: 0;
+    font-family: Bricolage Grotesque;
+    background-color: #151515;
+    overflow-x: hidden;
+}
+.headerTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 600px;
+    background-image: url(../images/background\ header.png);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 50px;
+    height: 70px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
+}
+
+.btnNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 45px;
+    color: #7C7C7C;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0); */
+    font-family: Bricolage Grotesque;
+    transition: 0.3s;
+    letter-spacing: 2px;
+}
+
+.btnNav:hover{
+    color: white;
+    /* border-bottom: 1px solid white; */
+    font-size: 22px;
+}
+
+.fotoPrincipal{
+    margin-top: 60px;
+    filter: drop-shadow(0px 0px 15px #0000008a);
+    width: 300px;
+    border-radius: 50%;
+}
+
+.devTitle{
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.containerLinguagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: -35px;
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
+
+}
+
+.iconLinguagem{
+    width: 47px;
+    height: 47px;
+    filter: saturate(0%);
+    opacity: 30%;
+    transition: 0.3s;
+}
+
+.iconLinguagem:hover{
+    filter: saturate(100%);
+    opacity: 100%;
+}
+
+.sobreContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SobreTitle{
+    letter-spacing: 2px;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.name{
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.conteudoSobre{
+    width: 580px;
+    text-align: justify;
+    margin-top: -10px;
+    color: #999999;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.spaceLiner{
+    margin-top: 40px;
+    width: 90vw;
+    height: 4px;
+    background-color: #282828;
+    border: none;
+    border-radius: 40px;
+}
+
+.projetosContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    height: 2410px;
+}
+
+.projetosTitle{
+    letter-spacing: 2px;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.recente{
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: #D1D1D1;
+    background-color: #151515;
+    width: 100%;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.windowProjeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 330px;
+    background-color: #999999;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
+}
+
+.topWindow{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    background-color: #D0D0D0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: inset 0px 0px 30px #404040fa;
+}
+
+.mainWindow{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/LoginCadastro\ bg.png);
+    background-size: 100% 100%;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.ball1{
+    margin-left: 15px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #FF6159;
+    border: 2px solid #E44F49;
+    cursor: pointer;
+}
+
+.ball2{
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #FFBD2E;
+    border: 2px solid #DF9F22;
+    cursor: pointer;
+}
+
+.ball3{
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #28CA42;
+    border: 2px solid #1AAA2B;
+    cursor: pointer;
+}
+
+
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2E2E2E;
+    font-weight: 600;
+    width: 40%;
+    height: 100%;
+    font-family: Poppins;
+    user-select: none;
+    /* background-color: rgb(0, 255, 42); */
+}
+.box3{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+
+.todos{
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-top: 80px;
+    color: #D1D1D1;
+    background-color: #151515;
+    width: 100%;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.containerTodos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    place-items: center;
+    align-items: start;
+    width: 95%;
+    height: 500px;
+    gap: 40px;
+    margin-top: 70px;
+    /* background-color: #1AAA2B; */
+}
+
+
+.fundoFrame{
+    scale: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+    width: 550px;
+    height: 410px;
+    margin-top: -95px;
+    /* background-color: aqua; */
+    
+}
+
+.projetoFrame{
+    scale: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 330px;
+    background-color: #999999;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
+}
+
+
+.topFrame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background-color: #D0D0D0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: inset 0px 0px 30px #40404077;
+    color: #2E2E2E;
+    font-weight: 600;
+    font-family: Poppins;
+    user-select: none;
+}
+
+.mainFrame1{
+    width: 100%;
+    height: 90%;
+    background-image: url(../images/capaMath.png);
+    background-size:cover;
+    background-position: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mainFrame2{
+    width: 100%;
+    height: 90%;
+    background-image: url(../images/capaFace.png);
+    background-size:cover;
+    background-position: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.mainFrame3{
+    width: 100%;
+    height: 90%;
+    background-image: url(../images/capaEco.png);
+    background-size:cover;
+    background-position: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.mainFrame4{
+    width: 100%;
+    height: 90%;
+    background-image: url(../images/capaAPI.png);
+    background-size:cover;
+    background-position: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.mainFrame5{
+    width: 100%;
+    height: 90%;
+    background-image: url(../images/capaTera.png);
+    background-size:cover;
+    background-position: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.mainFrame6{
+    width: 100%;
+    height: 90%;
+    background-image: url(../images/capaLed.png);
+    background-size:cover;
+    background-position: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mainFrame7{
+    width: 100%;
+    height: 90%;
+    background-image: url(../images/capaLogin.png);
+    background-size:cover;
+    background-position: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mainFrame8{
+    width: 100%;
+    height: 90%;
+    background-image: url(../images/capaRelogio.png);
+    background-size:cover;
+    background-position: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mainFrame9{
+    width: 100%;
+    height: 90%;
+    background-image: url(../images/capaEcos.png);
+    background-size:cover;
+    background-position: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+
+.buttonsBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 540px;
+    height: 80px;
+    background-color: #202020;
+    margin-top: -100px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    transition: 0.4s;
+}
+
+.buttonPages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    background-color: #1E1E1E;
+    color: white;
+    font-family: Poppins;
+    border: none;
+    font-size: 16px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttonPages:hover{
+    background-color: #3b3b3b;
+}
+
+.iconButton1{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.iconButton2{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.fundoFrame:hover .buttonsBar {
+    margin-top: -20px;
+}
+
+.line1{
+    background-color: #1AAA2B;
+    width: 100%;
+    height: 400px;
+}
+
+
+.contatoTitle{
+    letter-spacing: 2px;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.subContato{
+    margin-top: 5px;
+    color: #B6B6B6;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.contatoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contatoGrupo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 60px;
+    margin-top: -20px;
+}
+
+.iconeContato{
+    width: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+    opacity: 40%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.iconeContato:hover{
+    opacity: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 100vw;
+    height: 70px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
+}
+
+.direitos{
+    color: #949494;
+    font-family: Poppins;
+}
+
+.fundoBotaoTopo{
+    margin-top: -50px;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+}
+
+.backTop{
+    cursor: pointer;
+    margin-right: 80px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1E1E1E;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
+    transition: 0.3s;
+}
+
+.backTop:hover{
+    scale: 1.15;
+}
+
+.iconBtnTop{
+    width: 40px;
+    margin-top: 5px;
+}
+
+.backTop{
+    display: none;
+}
