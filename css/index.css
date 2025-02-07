@@ -570,3 +570,42 @@ body{
 .backTop{
     display: none;
 }
+
+.mobilePage{
+    display: none;
+}
+
+/* RESPONSIVIDADE MOBILE -- RESPONSIVIDADE MOBILE -- RESPONSIVIDADE MOBILE -- RESPONSIVIDADE MOBILE -- RESPONSIVIDADE MOBILE --  */
+/* RESPONSIVIDADE MOBILE -- RESPONSIVIDADE MOBILE -- RESPONSIVIDADE MOBILE -- RESPONSIVIDADE MOBILE -- RESPONSIVIDADE MOBILE --  */
+
+@media (max-width: 490px){
+
+    .headerTop{
+        display: none;
+    }
+
+    .main{
+        display: none;
+
+    }
+
+    .mobilePage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+
+    .txtSorry{
+        margin-top: -100px;
+        color: white;
+        width: 300px;
+        text-align: justify;
+    }
+
+    .carinha{
+        color: white;
+        font-size: 120px;
+    }
+}
