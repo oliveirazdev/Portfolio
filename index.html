@@ -316,7 +316,7 @@
             </div>
         </div>
 
-        <hr class="spaceLiner">
+         <hr class="spaceLiner2">
 
         <div class="contatoContainer" id="contato">
             <h1 class="contatoTitle">Contato</h1>
@@ -335,11 +335,11 @@
 
         
         <div class="fundoBotaoTopo">
-            <button class="backTop" id="backTop" onclick="scrollToTop()"><img src="images/iconTop.png" class="iconBtnTop" alt=""></button>
+            <button class="backTop" id="backTop" onclick="scrollToTop()"><img src="images/iconTop.png" draggable="false" class="iconBtnTop" alt=""></button>
         </div>
 
         <footer class="footer">
-            <p class="direitos">© 2025, Todos os direitos reservados. Felipe Oliveira.</p>
+            <p class="direitos">© 2025, Todos os direitos reservados. <br> Felipe Oliveira.</p>
         </footer>
 
 
@@ -356,7 +356,7 @@
 window.onscroll = function() {
     let backTop = document.getElementById("backTop");
     if (document.documentElement.scrollTop > 700) { 
-        backTop.style.display = "block"; // ou "flex" se precisar de alinhamento interno
+        backTop.style.display = "block"; // ou "flex"
     } else {
         backTop.style.display = "none";
     }
