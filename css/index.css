@@ -154,7 +154,8 @@ body{
     flex-direction: column;
     align-items: center;
     width: 80vw;
-    height: 1800px;
+    height: 100%;
+    /* background-color: rebeccapurple; */
 }
 
 .projetosTitle{
@@ -182,7 +183,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 600px;
-    height: 530px;
+    height: 320px;
     background-color: #999999;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
@@ -281,7 +282,7 @@ body{
 .backend{
     letter-spacing: 2px;
     margin-top: 200px;
-    margin-top: 900px;
+    margin-top: 20px;
     color: #D1D1D1;
     background-color: #151515;
     width: 100%;
@@ -296,7 +297,7 @@ body{
     place-items: center;
     align-items: start;
     width: 95%;
-    height: 500px;
+    height: 100%;
     gap: 40px;
     margin-top: 70px;
     /* background-color: #1AAA2B;  */
@@ -308,8 +309,8 @@ body{
     place-items: center;
     align-items: start;
     width: 95%;
-    height: 800px;
-    gap: 80px;
+    height: 100%;
+    /* gap: 10px; */
     margin-top: 70px;
     /* background-color: #1AAA2B; */
 }
