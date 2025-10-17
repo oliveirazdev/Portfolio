@@ -182,7 +182,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 600px;
-    height: 330px;
+    height: 530px;
     background-color: #999999;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.575);
@@ -202,8 +202,9 @@ body{
 .mainWindow{
     width: 100%;
     height: 100%;
-    background-image: url(../images/LoginCadastro\ bg.png);
-    background-size: 100% 100%;
+    background-image: url(../images/arcade11.png);
+    background-size: cover;
+    /* background-size: 100% 100%; */
 }
 
 .box1{
@@ -265,7 +266,7 @@ body{
 }
 
 
-.todos{
+.frontend{
     letter-spacing: 2px;
     margin-top: 20px;
     margin-top: 80px;
@@ -273,11 +274,23 @@ body{
     background-color: #151515;
     width: 100%;
     /* margin-left: 30px; */
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
 }
 
-.containerTodos{
+.backend{
+    letter-spacing: 2px;
+    margin-top: 200px;
+    margin-top: 900px;
+    color: #D1D1D1;
+    background-color: #151515;
+    width: 100%;
+    /* margin-left: 30px; */
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.containerFront{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     place-items: center;
@@ -285,6 +298,18 @@ body{
     width: 95%;
     height: 500px;
     gap: 40px;
+    margin-top: 70px;
+    /* background-color: #1AAA2B;  */
+}
+
+.containerBack{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    place-items: center;
+    align-items: start;
+    width: 95%;
+    height: 800px;
+    gap: 80px;
     margin-top: 70px;
     /* background-color: #1AAA2B; */
 }
@@ -345,9 +370,9 @@ body{
 .mainFrame2{
     width: 100%;
     height: 90%;
-    background-image: url(../images/capaFace.png);
+    background-image: url(../images/chronus.png);
     background-size:cover;
-    background-position: 0;
+    /* background-position: 0; */
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -356,9 +381,19 @@ body{
 .mainFrame3{
     width: 100%;
     height: 90%;
+    background-image: url(../images/arcade11.png);
+    background-size:cover;
+    /* background-position: 0; */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mainFrame5{
+    width: 100%;
+    height: 90%;
     background-image: url(../images/capaEco.png);
     background-size:cover;
-    background-position: 0;
+    /* background-position: 0; */
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -367,7 +402,7 @@ body{
 .mainFrame4{
     width: 100%;
     height: 90%;
-    background-image: url(../images/capaAPI.png);
+    background-image: url(../images/signo.png);
     background-size:cover;
     background-position: 0;
     border-bottom-right-radius: 10px;
@@ -375,7 +410,7 @@ body{
 }
 
 
-.mainFrame5{
+.mainFrame1{
     width: 100%;
     height: 90%;
     background-image: url(../images/capaTera.png);
@@ -389,7 +424,7 @@ body{
 .mainFrame6{
     width: 100%;
     height: 90%;
-    background-image: url(../images/capaLed.png);
+    background-image: url(../images/capaLogin.png);
     background-size:cover;
     background-position: 0;
     border-bottom-right-radius: 10px;
@@ -399,7 +434,7 @@ body{
 .mainFrame7{
     width: 100%;
     height: 90%;
-    background-image: url(../images/capaLogin.png);
+    background-image: url(../images/capaAPI.png);
     background-size:cover;
     background-position: 0;
     border-bottom-right-radius: 10px;
@@ -419,7 +454,7 @@ body{
 .mainFrame9{
     width: 100%;
     height: 90%;
-    background-image: url(../images/capaEcos.png);
+    background-image: url(../images/capaLed.png);
     background-size:cover;
     background-position: 0;
     border-bottom-right-radius: 10px;
