@@ -656,7 +656,7 @@ body{
         flex-direction: column;
         align-items: center;
         width: 80vw;
-        height: 2410px;
+        height: 100%;
     }
 
 }
@@ -700,7 +700,8 @@ body{
         flex-direction: column;
         align-items: center;
         width: 100vw;
-        height: 3350px;
+        height: 100%;
+        /* background-color: rebeccapurple; */
     }
 
     .recente{
@@ -739,6 +740,14 @@ body{
         font-size: 20px;
         font-weight: 400;
         margin-left: 0px;
+    }
+
+    .frontend{
+        margin-left: 35px;
+    }
+
+    .backend{
+        margin-left: 35px;
     }
 
     .fundoFrame{
