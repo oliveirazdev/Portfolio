@@ -509,7 +509,7 @@ section {
     .navegacao {
         width: 90%;
         padding: 15px;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .links-navegacao a {
@@ -556,4 +556,5 @@ section {
         text-align: center;
     }
 }
+
 
