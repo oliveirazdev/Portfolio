@@ -49,7 +49,7 @@ h1, h2, h3, .titulo-janela, .navegacao a {
     color: var(--text-muted);
     text-decoration: none;
     margin: 0 15px;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     transition: 0.3s;
 }
 
@@ -556,3 +556,4 @@ section {
         text-align: center;
     }
 }
+
