@@ -1,388 +1,290 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Felipe</title>
+    <title>Portfólio - Felipe Oliveira</title>
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="icon" href="images/logo.png">
 </head>
 <body>
 
-    <header class="headerTop" id="header">
-        <nav class="navbar">
+    <nav class="navegacao">
+        <div class="links-navegacao">
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </nav>
 
-            <a href="#sobre" class="btnNav">Sobre</a>
-            <a href="#projetos" class="btnNav">Projetos</a>
-            <a href="#contato" class="btnNav">Contato</a>
+    <header id="inicio" class="secao-inicio">
+        <div class="conteudo-inicio oculto">
+            <div class="container-perfil">
+                <img src="images/fotoFelipe.jpeg" class="foto-perfil" alt="Felipe Oliveira">
+            </div>
+            
+            <h1 class="nome-dev">Felipe Oliveira</h1>
+            <p class="funcao-dev">Desenvolvedor Front-End & Freelancer</p>
 
-        </nav>
+            <div class="botoes-inicio">
+                <a href="#servicos" class="btn-primario">
+                    Contratar Freelance
+                </a>
+                <a href="#projetos" class="btn-secundario">Ver Projetos</a>
+            </div>
 
-
-        <img src="images/fotoFelipe.jpeg" class="fotoPrincipal" alt="">
-
-        <p class="devTitle">Desenvolvedor Front-End</p>
-
-
-        
-
+            <div class="lista-tecnologias">
+                <div class="item-tec" title="HTML5"><img src="images/html.png" alt="HTML"></div>
+                <div class="item-tec" title="CSS3"><img src="images/css.png" alt="CSS"></div>
+                <div class="item-tec" title="JavaScript"><img src="images/js.png" alt="JS"></div>
+                <div class="item-tec" title="TypeScript"><img src="images/typescript.png" alt="TypeScript"></div>
+                <div class="item-tec" title="React"><img src="images/react.png" alt="React"></div>
+                <div class="item-tec" title="Node.js"><img src="images/node.png" alt="Node.js"></div>
+            </div>
+        </div>
     </header>
-    <main class="main">
 
-        <div class="containerLinguagens">
+    <main>
+        <section id="sobre" class="secao-sobre oculto">
+            <h2 class="titulo-secao">Sobre Mim</h2>
+            <div class="card-sobre">
+                <p>
+                    Olá, tenho 18 anos e sou um desenvolvedor web focado em <strong>Front-End</strong>. 
+                    Com habilidades sólidas em HTML, CSS, React e JavaScript, e expandindo para o Back-End com Node.js, transformo ideias em interfaces modernas e responsivas.
+                    Estou sempre em busca de novos desafios e oportunidades para evoluir profissionalmente.
+                </p>
+            </div>
+        </section>
 
-            <img class="iconLinguagem" src="images/html.png" alt="">
-            <img class="iconLinguagem" src="images/css.png" alt="">
-            <img class="iconLinguagem" src="images/js.png" alt="">
-            <img class="iconLinguagem" src="images/react.png" alt="">
+        <section id="servicos" class="secao-servicos oculto">
+            <h2 class="titulo-secao">O que eu desenvolvo?</h2>
+            <p class="subtitulo-secao">Soluções digitais modernas, feitas sob medida para sua necessidade.</p>
 
-        </div>
-
-        <div id="sobre" class="sobreContainer">
-            <h1 class="SobreTitle">Sobre mim</h1>
-
-            <p class="name">Felipe Oliveira Duarte Lima</p>
-            <p class="conteudoSobre">Olá, tenho 18 anos, desenvolvedor web focado em front-end. Com habilidades em HTML, CSS, React e JavaScript, estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente na área de desenvolvimento web.</p>
-        </div>
-
-        <hr class="spaceLiner">
-        
-        
-        <div class="projetosContainer" id="projetos">
-            <h1 class="projetosTitle">Projetos</h1>
-
-            <p class="recente">Mais recente:</p>
-
-        
-            <div class="windowProjeto">
-
-                <div class="topWindow">
-                    <div class="box1">
-                        <div class="ball1"></div>
-                        <div class="ball2"></div>
-                        <div class="ball3"></div>
-                    </div>
-                    <div class="box2">Arcade11</div>
-                    <div class="box3"></div>
+            <div class="grid-servicos">
+                
+                <div class="card-servico card-info">
+                    <div class="box-icone">🚀</div>
+                    <h3>Landing Pages</h3>
+                    <p class="desc-servico">
+                        Páginas focadas em conversão. Ideais para quem quer vender um produto específico, lançar um infoproduto ou capturar leads com alta eficiência.
+                    </p>
                 </div>
 
-                <div class="mainWindow">
-
+                <div class="card-servico card-info">
+                    <div class="box-icone">🏢</div>
+                    <h3>Sites Institucionais</h3>
+                    <p class="desc-servico">
+                        A presença digital da sua empresa. Um site profissional para apresentar sua história, serviços e passar credibilidade para seus clientes.
+                    </p>
                 </div>
 
+                <div class="card-servico card-info">
+                    <div class="box-icone">🏪</div>
+                    <h3>Páginas para Comércio</h3>
+                    <p class="desc-servico">
+                        Cardápios digitais, catálogos de produtos ou vitrines virtuais para negócios locais (restaurantes, lojas de roupa, etc).
+                    </p>
+                </div>
+
+                <div class="card-servico card-info">
+                    <div class="box-icone">📱</div>
+                    <h3>100% Responsivo</h3>
+                    <p class="desc-servico">
+                        Todos os projetos são desenvolvidos para funcionar perfeitamente em qualquer tela: Celulares, Tablets e Computadores.
+                    </p>
+                </div>
 
             </div>
 
-            <p class="frontend">Front-End:</p>
-
-
-            <div class="containerFront">
-                
-                
-                <div class="fundoFrame">
-        
-                    <div class="projetoFrame">
-        
-                        <div class="topFrame">
-                            <div class="box1">
-                                <div class="ball1"></div>
-                                <div class="ball2"></div>
-                                <div class="ball3"></div>
-                            </div>
-                            <div class="box2">TeraShop</div>
-                            <div class="box3"></div>
-                        </div>
-        
-                        <div class="mainFrame1">
-                        </div>
-        
-                    </div>
-        
-                    <div class="buttonsBar">
-                        <a class="buttonPages" href="https://oliveirazdev.github.io/TeraShop/" target="_blank">Ver pagina na web <img class="iconButton1" src="images/share.png" alt=""></a>
-                        <a class="buttonPages" href="https://github.com/oliveirazdev/TeraShop" target="_blank">Ver código/Github <img class="iconButton2" src="images/github.png" alt=""></a>
-                    </div>
-        
+            <div class="banner-orcamento">
+                <div class="texto-orcamento">
+                    <h3>Gostou do que viu?</h3>
+                    <p>Cada projeto é único. Entre em contato, me conte sua ideia e eu preparo um orçamento personalizado para você.</p>
                 </div>
-
-                <div class="fundoFrame">
-        
-                    <div class="projetoFrame">
-        
-                        <div class="topFrame">
-                            <div class="box1">
-                                <div class="ball1"></div>
-                                <div class="ball2"></div>
-                                <div class="ball3"></div>
-                            </div>
-                            <div class="box2">CHRONUS</div>
-                            <div class="box3"></div>
-                        </div>
-        
-                        <div class="mainFrame2">
-                        </div>
-        
-                    </div>
-        
-                    <div class="buttonsBar">
-                        <a class="buttonPages" href="https://oliveirazdev.github.io/CHRONUS/" target="_blank">Ver pagina na web <img class="iconButton1" src="images/share.png" alt=""></a>
-                        <a class="buttonPages" href="https://github.com/oliveirazdev/CHRONUS" target="_blank">Ver código/Github <img class="iconButton2" src="images/github.png" alt=""></a>
-                    </div>
-        
-                </div>
-
-
-                <div class="fundoFrame">
-        
-                    <div class="projetoFrame">
-        
-                        <div class="topFrame">
-                            <div class="box1">
-                                <div class="ball1"></div>
-                                <div class="ball2"></div>
-                                <div class="ball3"></div>
-                            </div>
-                            <div class="box2">Arcade11</div>
-                            <div class="box3"></div>
-                        </div>
-        
-                        <div class="mainFrame3">
-                        </div>
-        
-                    </div>
-        
-                    <div class="buttonsBar">
-                        <a class="buttonPages" href="https://oliveirazdev.github.io/Arcade11/" target="_blank">Ver pagina na web <img class="iconButton1" src="images/share.png" alt=""></a>
-                        <a class="buttonPages" href="https://github.com/oliveirazdev/Arcade11" target="_blank">Ver código/Github <img class="iconButton2" src="images/github.png" alt=""></a>
-                    </div>
-        
-                </div>
-
-                    <div class="fundoFrame">
-
-                        <div class="projetoFrame">
-
-                            <div class="topFrame">
-                                <div class="box1">
-                                    <div class="ball1"></div>
-                                    <div class="ball2"></div>
-                                    <div class="ball3"></div>
-                                </div>
-                                <div class="box2">SignoDay</div>
-                                <div class="box3"></div>
-                            </div>
-        
-                            <div class="mainFrame4">
-                            </div>
-
-                        </div>
-
-                        <div class="buttonsBar">
-                            <a class="buttonPages" href="https://oliveirazdev.github.io/SignoDay/" target="_blank">Ver pagina na web <img class="iconButton1" src="images/share.png" alt=""></a>
-                            <a class="buttonPages" href="https://github.com/oliveirazdev/SignoDay" target="_blank">Ver código/Github <img class="iconButton2" src="images/github.png" alt=""></a>
-                        </div>
-
-                    </div>
-
-                    <div class="fundoFrame">
-
-                        <div class="projetoFrame">
-    
-                            <div class="topFrame">
-                                <div class="box1">
-                                    <div class="ball1"></div>
-                                    <div class="ball2"></div>
-                                    <div class="ball3"></div>
-                                </div>
-                                <div class="box2">EcoTour</div>
-                                <div class="box3"></div>
-                            </div>
-        
-                            <div class="mainFrame5">
-                            </div>
-    
-                        </div>
-    
-                        <div class="buttonsBar">
-                            <a class="buttonPages" href="https://oliveirazdev.github.io/EcoTour/" target="_blank">Ver pagina na web <img class="iconButton1" src="images/share.png" alt=""></a>
-                            <a class="buttonPages" href="https://github.com/oliveirazdev/EcoTour" target="_blank">Ver código/Github <img class="iconButton2" src="images/github.png" alt=""></a>
-                        </div>
-    
-                    </div>
-                
-                    <div class="fundoFrame">
-
-                        <div class="projetoFrame">
-
-                            <div class="topFrame">
-                                <div class="box1">
-                                    <div class="ball1"></div>
-                                    <div class="ball2"></div>
-                                    <div class="ball3"></div>
-                                </div>
-                                <div class="box2">animatedLogin</div>
-                                <div class="box3"></div>
-                            </div>
-        
-                            <div class="mainFrame6">
-                            </div>
-
-                        </div>
-
-                        <div class="buttonsBar">
-                            <a class="buttonPages" href="https://oliveirazdev.github.io/animatedLogin/" target="_blank">Ver pagina na web <img class="iconButton1" src="images/share.png" alt=""></a>
-                            <a class="buttonPages" href="https://github.com/oliveirazdev/animatedLogin" target="_blank">Ver código/Github <img class="iconButton2" src="images/github.png" alt=""></a>
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="fundoFrame">
-
-                        <div class="projetoFrame">
-    
-                            <div class="topFrame">
-                                <div class="box1">
-                                    <div class="ball1"></div>
-                                    <div class="ball2"></div>
-                                    <div class="ball3"></div>
-                                </div>
-                                <div class="box2">Relógio Digital</div>
-                                <div class="box3"></div>
-                            </div>
-        
-                            <div class="mainFrame8">
-                            </div>
-    
-                        </div>
-    
-                        <div class="buttonsBar">
-                            <a class="buttonPages" href="https://oliveirazdev.github.io/Relogio/" target="_blank">Ver pagina na web <img class="iconButton1" src="images/share.png" alt=""></a>
-                            <a class="buttonPages" href="https://github.com/oliveirazdev/Relogio" target="_blank">Ver código/Github <img class="iconButton2" src="images/github.png" alt=""></a>
-                        </div>
-    
-                    </div>
-
-
+                <a href="https://wa.me/5511994836155?text=Olá Felipe, tenho uma ideia de projeto e gostaria de um orçamento." target="_blank" class="btn-primario">
+                    Solicitar Orçamento <i class="ri-whatsapp-line"></i>
+                </a>
             </div>
 
-            <p class="backend">Back-End:</p>
+        </section>
 
-
-            <div class="containerBack">
+        <section id="projetos" class="secao-projetos">
+            <h2 class="titulo-secao oculto">Projetos Recentes</h2>
+            
+            <div class="grid-projetos">
                 
-                
-                <div class="fundoFrame">
-        
-                    <div class="projetoFrame">
-        
-                        <div class="topFrame">
-                            <div class="box1">
-                                <div class="ball1"></div>
-                                <div class="ball2"></div>
-                                <div class="ball3"></div>
-                            </div>
-                            <div class="box2">Minhas API's</div>
-                            <div class="box3"></div>
+                <div class="card-projeto oculto">
+                    <div class="cabecalho-janela">
+                        <div class="pontos">
+                            <span class="ponto vermelho"></span>
+                            <span class="ponto amarelo"></span>
+                            <span class="ponto verde"></span>
                         </div>
-        
-                        <div class="mainFrame7">
-                        </div>
-        
+                        <span class="titulo-janela">Arcade11</span>
                     </div>
-        
-                    <div class="buttonsBar">
-                        <a class="buttonPages" href="https://oliveirazdev.github.io/TechSolutions/" target="_blank">Ver pagina na web <img class="iconButton1" src="images/share.png" alt=""></a>
-                        <a class="buttonPages" href="https://github.com/oliveirazdev/TechSolutions" target="_blank">Ver código/Github <img class="iconButton2" src="images/github.png" alt=""></a>
+                    <div class="imagem-projeto" style="background-image: url('images/arcade11.png');"></div>
+                    <div class="links-projeto">
+                        <a href="https://oliveirazdev.github.io/Arcade11/" target="_blank" class="btn-link-projeto">Ver página na web <i class="ri-external-link-line"></i></a>
+                        <a href="https://github.com/oliveirazdev/Arcade11" target="_blank" class="btn-link-projeto outline">Código/Github </a>
                     </div>
-        
                 </div>
 
-                <div class="fundoFrame">
-        
-                    <div class="projetoFrame">
-        
-                        <div class="topFrame">
-                            <div class="box1">
-                                <div class="ball1"></div>
-                                <div class="ball2"></div>
-                                <div class="ball3"></div>
-                            </div>
-                            <div class="box2">Led Control</div>
-                            <div class="box3"></div>
+                <div class="card-projeto oculto">
+                    <div class="cabecalho-janela">
+                        <div class="pontos">
+                            <span class="ponto vermelho"></span>
+                            <span class="ponto amarelo"></span>
+                            <span class="ponto verde"></span>
                         </div>
-        
-                        <div class="mainFrame9">
-                        </div>
-        
+                        <span class="titulo-janela">TeraShop</span>
                     </div>
-        
-                    <div class="buttonsBar">
-                        <a class="buttonPages" href="https://oliveirazdev.github.io/LedControl/" target="_blank">Ver pagina na web <img class="iconButton1" src="images/share.png" alt=""></a>
-                        <a class="buttonPages" href="https://github.com/oliveirazdev/LedControl" target="_blank">Ver código/Github <img class="iconButton2" src="images/github.png" alt=""></a>
+                    <div class="imagem-projeto" style="background-image: url('images/capaTera.png');"></div>
+                    <div class="links-projeto">
+                        <a href="https://oliveirazdev.github.io/TeraShop/" target="_blank" class="btn-link-projeto">Ver página na web <i class="ri-external-link-line"></i></a>
+                        <a href="https://github.com/oliveirazdev/TeraShop" target="_blank" class="btn-link-projeto outline">Código/Github </a>
                     </div>
-        
                 </div>
+
+                <div class="card-projeto oculto">
+                    <div class="cabecalho-janela">
+                        <div class="pontos">
+                            <span class="ponto vermelho"></span>
+                            <span class="ponto amarelo"></span>
+                            <span class="ponto verde"></span>
+                        </div>
+                        <span class="titulo-janela">CHRONUS</span>
+                    </div>
+                    <div class="imagem-projeto" style="background-image: url('images/chronus.png');"></div>
+                    <div class="links-projeto">
+                        <a href="https://oliveirazdev.github.io/CHRONUS/" target="_blank" class="btn-link-projeto">Ver página na web <i class="ri-external-link-line"></i></a>
+                        <a href="https://github.com/oliveirazdev/CHRONUS" target="_blank" class="btn-link-projeto outline">Código/Github </a>
+                    </div>
+                </div>
+
+                <div class="card-projeto oculto">
+                    <div class="cabecalho-janela">
+                        <div class="pontos">
+                            <span class="ponto vermelho"></span>
+                            <span class="ponto amarelo"></span>
+                            <span class="ponto verde"></span>
+                        </div>
+                        <span class="titulo-janela">EcoTour</span>
+                    </div>
+                    <div class="imagem-projeto" style="background-image: url('images/capaEco.png');"></div>
+                    <div class="links-projeto">
+                        <a href="https://oliveirazdev.github.io/EcoTour/" target="_blank" class="btn-link-projeto">Ver página na web <i class="ri-external-link-line"></i></a>
+                        <a href="https://github.com/oliveirazdev/EcoTour" target="_blank" class="btn-link-projeto outline">Código/Github </a>
+                    </div>
+                </div>
+
+                 <div class="card-projeto oculto">
+                    <div class="cabecalho-janela">
+                        <div class="pontos">
+                            <span class="ponto vermelho"></span>
+                            <span class="ponto amarelo"></span>
+                            <span class="ponto verde"></span>
+                        </div>
+                        <span class="titulo-janela">SignoDay</span>
+                    </div>
+                    <div class="imagem-projeto" style="background-image: url('images/signo.png');"></div>
+                    <div class="links-projeto">
+                        <a href="https://oliveirazdev.github.io/SignoDay/" target="_blank" class="btn-link-projeto">Ver página na web <i class="ri-external-link-line"></i></a>
+                        <a href="https://github.com/oliveirazdev/SignoDay" target="_blank" class="btn-link-projeto outline">Código/Github </a>
+                    </div>
+                </div>
+
+                <div class="card-projeto oculto">
+                    <div class="cabecalho-janela">
+                        <div class="pontos">
+                            <span class="ponto vermelho"></span>
+                            <span class="ponto amarelo"></span>
+                            <span class="ponto verde"></span>
+                        </div>
+                        <span class="titulo-janela">Login Animado</span>
+                    </div>
+                    <div class="imagem-projeto" style="background-image: url('images/capaLogin.png');"></div>
+                    <div class="links-projeto">
+                        <a href="https://oliveirazdev.github.io/animatedLogin/" target="_blank" class="btn-link-projeto">Ver página na web <i class="ri-external-link-line"></i></a>
+                        <a href="https://github.com/oliveirazdev/animatedLogin" target="_blank" class="btn-link-projeto outline">Código/Github </a>
+                    </div>
+                </div>
+                
+                 <div class="card-projeto oculto">
+                    <div class="cabecalho-janela">
+                        <div class="pontos">
+                            <span class="ponto vermelho"></span>
+                            <span class="ponto amarelo"></span>
+                            <span class="ponto verde"></span>
+                        </div>
+                        <span class="titulo-janela">Minhas API's</span>
+                    </div>
+                    <div class="imagem-projeto" style="background-image: url('images/capaAPI.png');"></div>
+                    <div class="links-projeto">
+                        <a href="https://oliveirazdev.github.io/TechSolutions/" target="_blank" class="btn-link-projeto">Ver página na web <i class="ri-external-link-line"></i></a>
+                        <a href="https://github.com/oliveirazdev/TechSolutions" target="_blank" class="btn-link-projeto outline">Código/Github </a>
+                    </div>
+                </div>
+
+                 <div class="card-projeto oculto">
+                    <div class="cabecalho-janela">
+                        <div class="pontos">
+                            <span class="ponto vermelho"></span>
+                            <span class="ponto amarelo"></span>
+                            <span class="ponto verde"></span>
+                        </div>
+                        <span class="titulo-janela">Led Control</span>
+                    </div>
+                    <div class="imagem-projeto" style="background-image: url('images/capaLed.png');"></div>
+                    <div class="links-projeto">
+                        <a href="https://oliveirazdev.github.io/LedControl/" target="_blank" class="btn-link-projeto">Ver página na web <i class="ri-external-link-line"></i></a>
+                        <a href="https://github.com/oliveirazdev/LedControl" target="_blank" class="btn-link-projeto outline">Código/Github </a>
+                    </div>
+                </div>
+
             </div>
+        </section>
 
-
-
-        </div>
-
-         <hr class="spaceLiner2">
-
-        <div class="contatoContainer" id="contato">
-            <h1 class="contatoTitle">Contato</h1>
-
-            <p class="subContato">Entre em contato comigo:</p>
-
-            <div class="contatoGrupo">
-
-                <img class="iconeContato" onclick="location.href='https://github.com/oliveirazdev'" src="images/github.png" alt="" title="GitHub">
-                <img class="iconeContato" onclick="location.href='mailto:oliveirafee77@gmail.com'"  src="images/email.png" alt="" title="E-Mail">
-                <img class="iconeContato" onclick="location.href='https://www.linkedin.com/in/felipe-oliveira-6a245430b/'" src="images/linkedin.png" alt="" - LinkedIn>
-
+        <section id="contato" class="secao-contato oculto">
+            <h2 class="titulo-secao">Vamos Conversar?</h2>
+            <div class="links-contato">
+                <a href="https://github.com/oliveirazdev" target="_blank" class="botao-contato">
+                    <img src="images/github.png" class="icone-pequeno"> GitHub
+                </a>
+                <a href="mailto:oliveirafee77@gmail.com" class="botao-contato">
+                    <img src="images/email.png" class="icone-pequeno"> Email
+                </a>
+                <a href="https://www.linkedin.com/in/felipe-oliveira-6a245430b/" target="_blank" class="botao-contato">
+                    <img src="images/linkedin.png" class="icone-pequeno"> LinkedIn
+                </a>
             </div>
-
-        </div>
-
-        
-        <div class="fundoBotaoTopo">
-            <button class="backTop" id="backTop" onclick="scrollToTop()"><img src="images/iconTop.png" draggable="false" class="iconBtnTop" alt=""></button>
-        </div>
-
-        <footer class="footer">
-            <p class="direitos">© 2025, Todos os direitos reservados. <br> Felipe Oliveira.</p>
-        </footer>
-
-
+        </section>
 
     </main>
 
-    <div class="mobilePage">
-        <p class="carinha">:(</p>
-        <p class="txtSorry">Desculpe, a versão para dispositivos móveis ainda não está disponível!</p>
-    </div>
+    <footer class="rodape">
+        <p>© 2026 Felipe Oliveira Duarte Lima.</p>
+        <button id="botao-topo" onclick="window.scrollTo(0,0)"><img src="images/iconTop.png" alt=""></button>
+    </footer>
 
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('mostrar');
+                }
+            });
+        });
 
-<script>
-window.onscroll = function() {
-    let backTop = document.getElementById("backTop");
-    if (document.documentElement.scrollTop > 700) { 
-        backTop.style.display = "block"; // ou "flex"
-    } else {
-        backTop.style.display = "none";
-    }
-};
+        const hiddenElements = document.querySelectorAll('.oculto');
+        hiddenElements.forEach((el) => observer.observe(el));
 
-function scrollToTop() {
-    window.location.href='#header';
-}
-
-</script>
-
-    
+        window.addEventListener('scroll', () => {
+            const btn = document.getElementById('botao-topo');
+            if(window.scrollY > 500) btn.classList.add('visivel');
+            else btn.classList.remove('visivel');
+        })
+    </script>
 </body>
 </html>
-
